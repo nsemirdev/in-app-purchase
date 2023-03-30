@@ -13,6 +13,7 @@
 		2DEC6E1029D5EB9C00F90FA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC6E0E29D5EB9C00F90FA0 /* Main.storyboard */; };
 		2DEC6E1229D5EB9D00F90FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC6E1129D5EB9D00F90FA0 /* Assets.xcassets */; };
 		2DEC6E1529D5EB9D00F90FA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC6E1329D5EB9D00F90FA0 /* LaunchScreen.storyboard */; };
+		2DEC6E1E29D5F2CD00F90FA0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC6E1D29D5F2CD00F90FA0 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2DEC6E1129D5EB9D00F90FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DEC6E1429D5EB9D00F90FA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DEC6E1629D5EB9D00F90FA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DEC6E1D29D5F2CD00F90FA0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DEC6E1E29D5F2CD00F90FA0 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				2DEC6E0729D5EB9C00F90FA0 /* in-app-purchase */,
 				2DEC6E0629D5EB9C00F90FA0 /* Products */,
+				2DEC6E1C29D5F2CD00F90FA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				2DEC6E1629D5EB9D00F90FA0 /* Info.plist */,
 			);
 			path = "in-app-purchase";
+			sourceTree = "<group>";
+		};
+		2DEC6E1C29D5F2CD00F90FA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC6E1D29D5F2CD00F90FA0 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +307,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +336,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
